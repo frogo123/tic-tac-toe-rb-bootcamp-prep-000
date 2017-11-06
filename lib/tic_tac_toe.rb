@@ -135,8 +135,6 @@ def over?(board)
 if  won?(board) && full?(board) == false && draw?(board) == false
   if won?(board).length == 3
   return true
-else
-  return false
 end
 elsif full?(board) && won?(board)
   return true
