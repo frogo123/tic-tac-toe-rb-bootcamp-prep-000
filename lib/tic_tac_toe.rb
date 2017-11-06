@@ -97,9 +97,7 @@ counter = 0
   i3 = board[intArr[2]]
 
 #check to make sure mathches are not empty board spaces
-  if i1 != " " && i2 != " " && i3 != " "
-#check to see if inputs of X's O's match winning sequences
- if i1 == i2 && i2 == i3 && i1 == i3
+  if i1 != " " && i2 != " " && i3 != " " && i1 == i2 && i2 == i3 && i1 == i3
 #return winning combination
 return intArr
  else
@@ -112,7 +110,6 @@ return intArr
 
  end
 
- end
  puts counter
 
  intArr = []
