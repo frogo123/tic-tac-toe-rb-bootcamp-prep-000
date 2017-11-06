@@ -84,7 +84,7 @@ WIN_COMBINATIONS = [
   [2, 4, 6]
 ]
 
-#win method
+#won method
 def won?(board)
 
 empty = 0
@@ -111,16 +111,19 @@ return intArr
   end
  end
  end
+ intArr = []
 end
 end
 
-
+#full method
 def full?(board)
+  #check if every element in the board has been filled by either an X or a O
   board.all? do |element|
  element == "X" || element == "O"
 end
 end
 
+#draw method
 def draw?(board)
 if full?(board) && won?(board) == false
   return true
