@@ -84,34 +84,33 @@ WIN_COMBINATIONS = [
   [2, 4, 6]
 ]
 
-
+#win method
 def won?(board)
 
 empty = 0
 counter = 0
  WIN_COMBINATIONS.each do |intArr|
+
+#set variables to board inputs
   i1 = board[intArr[0]]
   i2 = board[intArr[1]]
   i3 = board[intArr[2]]
-
+  
+#check to make sure mathches are not empty board spaces
   if i1 != " " && i2 != " " && i3 != " "
-
+#check to see if inputs of X's O's match winning sequences
  if i1 == i2 && i2 == i3 && i1 == i3
-
+#return winning combination
 return intArr
  else
   counter += 1
+  #if counter gets to 8 return false as there are no mathches
   if counter == 8
     counter == 0
     return false
   end
  end
-#  else
-#    empty += 1
  end
-# if empty == 8
-#   return false
-# end
 end
 end
 
@@ -147,6 +146,7 @@ end
 
 def winner(board)
   if won?(board)
+    puts won?(board)
   arr = won?(board)
   sym = board[arr[0]]
 return sym
