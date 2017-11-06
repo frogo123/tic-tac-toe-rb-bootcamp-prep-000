@@ -133,7 +133,6 @@ end
 def over?(board)
 
 if  won?(board) && full?(board) == false && draw?(board) == false
-  if won?(board).length == 3
   return true
 end
 elsif full?(board) && won?(board)
@@ -143,6 +142,7 @@ elsif draw?(board)
 else
   return false
 end
+
 end
 
 def winner(board)
