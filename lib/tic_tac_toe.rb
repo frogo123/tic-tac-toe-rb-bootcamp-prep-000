@@ -114,7 +114,7 @@ return intArr
 
  end
  puts counter
- 
+
  intArr = []
  puts counter
 end
