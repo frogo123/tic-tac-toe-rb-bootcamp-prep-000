@@ -61,6 +61,7 @@ def play(board)
   won?(board)
   draw?(board)
 while over?(board) == false do
+  puts "overMeth"
   turn(board)
 end
 if won?(board) != false
