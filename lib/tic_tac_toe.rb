@@ -97,9 +97,11 @@ counter = 0
   i3 = board[intArr[2]]
 
 #check to make sure mathches are not empty board spaces
+#and check that board posistion match winning combinations
   if i1 != " " && i2 != " " && i3 != " " && i1 == i2 && i2 == i3 && i1 == i3
 #return winning combination
 return intArr
+#else add 1 to counter
  else
   counter += 1
   #if counter gets to 8 return false as there are no mathches
