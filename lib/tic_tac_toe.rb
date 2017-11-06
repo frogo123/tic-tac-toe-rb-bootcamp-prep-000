@@ -148,7 +148,6 @@ end
 def winner(board)
   if won?(board)
   arr = won?(board)
-  puts board[arr[0]]
   sym = board[arr[0]]
 return sym
 else
