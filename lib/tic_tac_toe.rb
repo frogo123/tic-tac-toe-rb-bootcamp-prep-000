@@ -142,6 +142,8 @@ elsif full?(board) && won?(board)
   return true
 elsif draw?(board)
   return true
+else 
+  return false
 end
 end
 
