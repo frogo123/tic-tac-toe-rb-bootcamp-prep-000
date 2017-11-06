@@ -106,12 +106,12 @@ return intArr
     return false
   end
  end
- else
-   empty += 1
-end
-if empty == 8
-  return false
-end
+#  else
+#    empty += 1
+# end
+# if empty == 8
+#   return false
+# end
 end
 end
 
