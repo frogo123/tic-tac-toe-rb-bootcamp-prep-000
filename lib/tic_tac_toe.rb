@@ -101,7 +101,7 @@ counter = 0
 return intArr
  else
   counter += 1
-  if counter == 8
+  if counter == 3
     counter == 0
     return false
   end
