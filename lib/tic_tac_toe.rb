@@ -109,9 +109,13 @@ return intArr
     counter == 0
     return false
   end
+  
  end
+ 
  end
+ puts intArr
  intArr = []
+ puts intArr
 end
 end
 
@@ -149,7 +153,6 @@ end
 
 def winner(board)
   if won?(board)
-    puts won?(board)
   arr = won?(board)
   sym = board[arr[0]]
 return sym
