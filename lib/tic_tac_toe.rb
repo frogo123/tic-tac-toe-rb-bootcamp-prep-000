@@ -138,7 +138,7 @@ if  won?(board) && full?(board) == false && draw?(board) == false
 else
   return false
 end
-elsif full?(board) == true && won?(board) != false
+elsif full?(board) == true && won?(board)
   return true
 elsif draw?(board) == true
   return true
