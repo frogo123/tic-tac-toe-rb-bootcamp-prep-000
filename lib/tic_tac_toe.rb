@@ -123,7 +123,7 @@ end
 end
 
 def draw?(board)
-if full?(board) == true && won?(board) == false
+if full?(board) && won?(board) == false
   return true
 else
   return false
