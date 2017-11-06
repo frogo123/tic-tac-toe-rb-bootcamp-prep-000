@@ -95,7 +95,7 @@ counter = 0
   i1 = board[intArr[0]]
   i2 = board[intArr[1]]
   i3 = board[intArr[2]]
-  
+
 #check to make sure mathches are not empty board spaces
   if i1 != " " && i2 != " " && i3 != " "
 #check to see if inputs of X's O's match winning sequences
