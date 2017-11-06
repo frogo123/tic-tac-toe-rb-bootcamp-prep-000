@@ -58,8 +58,8 @@ def turn(board)
   end
 
 def play(board)
-  #won?(board)
-  #draw?(board)
+  won?(board)
+  draw?(board)
 while over?(board) == false do
   turn(board)
 end
