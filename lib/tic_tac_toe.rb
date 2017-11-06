@@ -113,9 +113,9 @@ return intArr
  end
 
  end
- puts intArr + " 1"
+ puts "1 #{intArr}"
  intArr = []
- puts intArr = " 2"
+ puts "2 #{intArr}"
 end
 end
 
