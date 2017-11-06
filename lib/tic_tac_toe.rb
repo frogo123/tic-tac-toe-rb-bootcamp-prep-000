@@ -58,6 +58,7 @@ def turn(board)
   end
 
 def play(board)
+  puts "PlayMeth"
   won?(board)
   draw?(board)
 while over?(board) == false do
