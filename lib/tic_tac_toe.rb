@@ -62,6 +62,7 @@ def play(board)
   draw?(board)
 while over?(board) == false do
   turn(board)
+  puts "Turn"
 end
 if won?(board) != false
   puts "Congratulations #{winner(board)}!"
