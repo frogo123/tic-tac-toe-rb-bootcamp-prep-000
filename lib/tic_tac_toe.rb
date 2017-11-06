@@ -108,7 +108,7 @@ return intArr
  end
 #  else
 #    empty += 1
-# end
+ end
 # if empty == 8
 #   return false
 # end
